@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_menu_send"
+            android:title="Employers"
+            android:id="@+id/nav_employers" >
+            <menu >
+                <item
+                    android:id="@+id/nav_Register_emp"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Register as Employers" />
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Login as Employers" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_jobseekers"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Job Seekers" >
+            <menu>
+                <item
+                    android:id="@+id/nav_reg_seeker"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Register as Jobseekers" />
+                <item
+                    android:id="@+id/nav_log_seekers"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Login as Jobseekers" />
+            </menu>
+
+        </item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <group />
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share " />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
